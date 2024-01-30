@@ -66,7 +66,6 @@ public class Drawing : MonoBehaviour
         var mousePos = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
         return new Vector3(mousePos.x, mousePos.y, depth);
     }
-
     public void EraseAllLines()
     {
         lineManager.EraseAllLines();
